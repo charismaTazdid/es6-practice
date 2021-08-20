@@ -7,10 +7,13 @@ const player = {
     id: 40,
     name: 'sakib al hasan',
     sellary: 4000000, 
-    marriedStatus: true,
+    marrietalStatus: true,
 
 }
 
-player.name= "mashrafi bin mortoza"
+// const amarId = player.id;
+// const amarSellary = player.sellary;
 
-console.log(player)
+const { amarId, amarSellary} = player;
+
+console.log(amarId)
